@@ -1,0 +1,127 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav
+{
+    background-color: green;
+    height: 50px;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav ul li
+{
+    float: left;
+    width: 160px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    text-transform: uppercase;
+    height: 50px;
+    text-align: center;
+    padding: 16px 10px 0px;
+    transition: all 1s;
+}
+
+nav ul li a:hover
+{
+    background-color: gray;
+}
+
+.bg-green{ background-color: green; }
+
+nav ul li ul
+{
+    display: none;
+}
+
+nav ul li:hover ul 
+{
+    display: block;
+}
+
+.container
+{
+    background-color: black;
+    color: white;
+}
+
+@font-face
+{
+    font-family: uylab;
+    src: url('../fonts/Lobster-Regular.ttf');
+}
+
+.container p
+{
+    font-size: 18px;
+    padding: 30px;
+    font-family: uylab;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.div
+{
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    animation-name: bitm;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bitm
+{
+    0%{ 
+        background-image: url(../img/1.jpg); 
+        background-repeat: no-repeat; 
+        background-size: 100% 100%;
+    } 
+    25%{ 
+        background-image: url(../img/2.png); 
+        background-repeat: no-repeat; 
+        background-size: 100% 100%;
+    } 
+    50%{ 
+        background-image: url(../img/3.webp); 
+        background-repeat: no-repeat; 
+        background-size: 100% 100%;
+    } 
+    75%{ 
+        background-image: url(../img/4.jpg); 
+        background-repeat: no-repeat; 
+        background-size: 100% 100%;
+    } 
+    100%{ 
+        background-image: url(../img/5.jfif); 
+        background-repeat: no-repeat; 
+        background-size: 100% 100%;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
